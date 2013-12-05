@@ -103,25 +103,24 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libcamera_client.so/:/system/lib/libcamera_client.so \
     vendor/huawei/u8800pro/proprietary/lib/libcameraservice.so/:/system/lib/libcameraservice.so \
-#    vendor/huawei/u8800pro/proprietary/lib/liboverlay.so/:/system/lib/liboverlay.so \
-#    vendor/huawei/u8800pro/proprietary/lib/libstagefright.so:/system/lib/libstagefright.so \
-#    vendor/huawei/u8800pro/proprietary/lib/libstagefright_omx.so:/system/lib/libstagefright_omx.so \
+    vendor/huawei/u8800pro/proprietary/lib/liboverlay.so/:/system/lib/liboverlay.so \
+    vendor/huawei/u8800pro/proprietary/lib/libstagefright.so:/system/lib/libstagefright.so \
+    vendor/huawei/u8800pro/proprietary/lib/libstagefright_omx.so:/system/lib/libstagefright_omx.so \
 
 # audio
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
-#    vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/obj/lib/libaudioalsa.so \
+    vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/obj/lib/libaudioalsa.so \
     vendor/huawei/u8800pro/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
-#    vendor/huawei/u8800pro/proprietary/lib/libaudio.so:/obj/lib/libaudio.so \
-    vendor/huawei/u8800pro/proprietary/lib/soundfx/libcyanogen-dsp.so:/system/lib/soundfx/libcyanogen-dsp.so: \
+    vendor/huawei/u8800pro/proprietary/lib/soundfx/libcyanogen-dsp.so:/system/lib/soundfx/libcyanogen-dsp.so \
 
 # sensors
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
     
 #extra
-#PRODUCT_COPY_FILES += \
-#    vendor/huawei/u8800pro/proprietary/bin/modempre:system/bin/modempre \
-#    vendor/huawei/u8800pro/proprietary/bin/netmgrd:system/bin/netmgrd \
-#    vendor/huawei/u8800pro/proprietary/bin/wmdsi:system/bin/wmdsi \
+PRODUCT_COPY_FILES += \
+    vendor/huawei/u8800pro/proprietary/bin/modempre:system/bin/modempre \
+    vendor/huawei/u8800pro/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/huawei/u8800pro/proprietary/bin/wmdsi:system/bin/wmdsi \
  
