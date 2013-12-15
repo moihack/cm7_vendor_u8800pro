@@ -109,10 +109,9 @@ PRODUCT_COPY_FILES += \
 
 # audio
 PRODUCT_COPY_FILES += \
-    vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/obj/lib/libaudioalsa.so \
-    vendor/huawei/u8800pro/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
     vendor/huawei/u8800pro/proprietary/lib/soundfx/libcyanogen-dsp.so:/system/lib/soundfx/libcyanogen-dsp.so \
+    vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/obj/lib/libaudioalsa.so \
+    vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
 
 # sensors
 PRODUCT_COPY_FILES += \
