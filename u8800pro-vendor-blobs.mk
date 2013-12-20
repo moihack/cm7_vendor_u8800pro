@@ -86,10 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/bin/bluetoothd:/system/bin/bluetoothd \
     vendor/huawei/u8800pro/proprietary/bin/hciattach:/system/bin/hciattach \
     vendor/huawei/u8800pro/proprietary/bin/port-bridge:/system/bin/port-bridge \
-    
-# screenshot
-PRODUCT_COPY_FILES += \
-    vendor/huawei/u8800pro/proprietary/bin/screenshot:/system/bin/screenshot \
+    vendor/huawei/u8800pro/proprietary/bin/brcm_patchram_plus:/system/bin/brcm_patchram_plus \
     
 # Camera
 PRODUCT_COPY_FILES += \
@@ -109,7 +106,6 @@ PRODUCT_COPY_FILES += \
 
 # audio
 PRODUCT_COPY_FILES += \
-    vendor/huawei/u8800pro/proprietary/lib/soundfx/libcyanogen-dsp.so:/system/lib/soundfx/libcyanogen-dsp.so \
     vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/obj/lib/libaudioalsa.so \
     vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
 
