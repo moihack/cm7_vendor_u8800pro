@@ -108,7 +108,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/obj/lib/libaudioalsa.so \
     vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
-
+    vendor/huawei/u8800pro/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
+    vendor/huawei/u8800pro/proprietary/lib/libaudio.so:/obj/lib/libaudio.so \
+    vendor/huawei/u8800pro/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
+    vendor/huawei/u8800pro/proprietary/lib/libaudiopolicy.so:/obj/lib/libaudiopolicy.so \
+    vendor/huawei/u8800pro/proprietary/lib/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
+    
 # sensors
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
